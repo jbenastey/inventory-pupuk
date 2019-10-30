@@ -65,7 +65,7 @@ class KeluarController extends CI_Controller
 				);
 				$this->keluar->tambah_detail($data);
 				$this->pupuk->edit_pupuk($pupukId, $dataPupuk);
-				redirect('keluar/tambah');
+				redirect('keluar/tambah/'.$id);
 			} else {
 				$this->session->set_flashdata('alert', 'stok_kurang');
 				redirect('keluar/tambah/'.$id);
