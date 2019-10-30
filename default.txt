@@ -1,0 +1,10 @@
+username 		password
+admin			admin
+admin_supplier_a	admin
+admin_supplier_b	admin
+admin_gudang		admin
+kepala_kantor		kepala
+kepala_supplier_a	kepala
+kepala_supplier_b	kepala
+sekretaris_a		sekretaris
+sekretaris_b		sekretaris
